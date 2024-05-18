@@ -23,7 +23,7 @@ function Homepage(){
         </div>
       </div>
       <div className=' w-screen md:w-1/2 h-auto lg:h-[90vh] grid place-content-center'>
-        <img src="/components/image1.jpg" alt="" className=' mx-auto my-auto mix-blend-lighten w-8/12 h-auto bg-cover rounded-full ' style={{boxShadow:"0px 0px 40px rgb(103 232 249)"}} />
+        <img src="src/image1.jpg" alt="" className=' mx-auto my-auto mix-blend-lighten w-8/12 h-auto bg-cover rounded-full ' style={{boxShadow:"0px 0px 40px rgb(103 232 249)"}} />
       </div>
       </div>
   </>)
