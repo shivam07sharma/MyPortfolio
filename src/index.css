@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@keyframes typing{
+
+    0% { 
+        width: 0%;
+     }
+    100%{
+        width: 60%;
+    }
+}
+.typing-animation {
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1.8s steps(20) 1s infinite;
+}
