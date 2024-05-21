@@ -17,7 +17,8 @@ const List = ({ addClass }) => {
     )
 }
 const Navbar = () => {
-    const [getMenu, setMenu] = useState(false)
+    const [getMenu, setMenu] = useState(false);
+   
     return (
         <>
             <nav className="sticky top-0 w-screen h-max md:h-16 bg-[#2c2e3a] flex justify-between flex-wrap">
@@ -26,7 +27,7 @@ const Navbar = () => {
                     <div>Portfolio</div>
                 </div>
                 <List addClass="hidden md:flex" />
-                {getMenu && <List />}
+                {getMenu && <List addClass="flex md:hidden" />}
             </nav>
 
 
