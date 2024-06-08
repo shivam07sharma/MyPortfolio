@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import ContactPage from './components/ContactMe'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
+import ProjectList from './components/ProjectsPage'
 import { useEffect,useState } from 'react'
 function Homepage(){
     
@@ -49,7 +50,7 @@ function App() {
     },
     {
       path:"/Projects",
-      element:<><Navbar/></>
+      element:<><Navbar/><ProjectList/></>
     }]
   );
   return (
