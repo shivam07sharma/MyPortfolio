@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import Media from "./mediaLinks";
 const Errormsg=(props)=>{
     return <div className="m-0 text-xs text-red-600 ">
         {props.error}
@@ -38,7 +39,11 @@ const ContactPage=()=>{
         <button className="w-32 h-9 bg-[#0a21c0] text-white rounded-lg md:hover:bg-[#2c2e3a] active:bg-[#2c2e3a] md:active:bg-none " type="submit">Submit</button>
             </form>
         </div>
+        <div className=" my-14">
+            <Media/>
+        </div>
         </>
+
     )
 }
 
