@@ -26,9 +26,6 @@ function Homepage(){
         </div>
       </div>
       <div className=' w-screen md:w-1/2 h-auto lg:h-[90vh] grid place-content-center'>
-       
-       {/* <img src="https://media.istockphoto.com/id/1178763127/vector/man-with-laptop-sitting-on-the-chair-freelance-or-studying-concept-cute-illustration-in-flat.jpg?s=612x612&w=0&k=20&c=gzk5c0q1DkndI2IFHIBCHIapEiFHm6JuG0-6C3xL-3I=" alt="" className=' mx-auto my-auto mix-blend-lighten w-8/12 h-auto bg-cover rounded-full get-transition' style={{ boxShadow:"0px 0px 40px rgb(103 232 249)"}} />
-     */}
        <img src="images/image1.jpg" alt="" className=' mx-auto my-auto mix-blend-lighten w-8/12 h-auto bg-cover rounded-full get-transition' style={{ boxShadow:"0px 0px 40px rgb(103 232 249)"}} />
     
       </div>
