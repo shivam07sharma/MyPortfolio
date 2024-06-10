@@ -4,6 +4,7 @@ import ContactPage from './components/ContactMe'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
 import ProjectList from './components/ProjectsPage'
+import Media from './components/mediaLinks'
 import { useEffect,useState } from 'react'
 function Homepage(){
     
@@ -26,10 +27,13 @@ function Homepage(){
         </div>
       </div>
       <div className=' w-screen md:w-1/2 h-auto lg:h-[90vh] grid place-content-center'>
-       <img src="images/image1.jpg" alt="" className=' mx-auto my-auto mix-blend-lighten w-8/12 h-auto bg-cover rounded-full get-transition' style={{ boxShadow:"0px 0px 40px rgb(103 232 249)"}} />
+       <img src="images/image1.jpg" alt="" className=' mx-auto my-auto mix-blend-lighten w-8/12 h-auto bg-cover rounded-full ' style={{ boxShadow:"0px 0px 40px rgb(103 232 249)"}} />
     
       </div>
       </div>
+   <div className='w-11/12 h-1 border-b-4 border-white mx-auto'></div>
+   <div className=' text-white text-xl my-8 w-11/12 mx-auto'>Contact Me :</div>
+<Media width={"w-[91vw]"} />
   </>)
 }
 function App() {

@@ -21,7 +21,7 @@ const Navbar = () => {
    
     return (
         <>
-            <nav className="sticky top-0 w-screen h-max md:h-16 bg-[#2c2e3a] flex justify-between flex-wrap">
+            <nav className="sticky top-0 z-10 w-screen h-max md:h-16 bg-[#2c2e3a] flex justify-between flex-wrap">
                 <div className="text-white w-11/12 text-xl  md:text-2xl md:w-max h-max mx-auto md:mx-14 my-autov py-3 flex justify-between items-center ">
                     <div className="material-symbols-outlined block md:hidden mx-4 my-auto" onClick={() => { setMenu(!getMenu) }}>menu</div>
                     <div>Portfolio</div>

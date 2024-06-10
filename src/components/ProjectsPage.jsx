@@ -19,7 +19,7 @@ const Project=(props)=>{
     return(
         <>  <NavLink to={props.projLink}>
 
-            <div className="w-[330px] mx-auto h-56 rounded-3xl border-white border my-5 overflow-hidden">
+            <div className="w-[330px] mx-auto h-56 rounded-3xl border-white border my-3 overflow-hidden">
                 
                 <img src={props.imageLink} alt="img" className="w-full h-4/6 object-cover"/>
                 <div className=" my-1 mx-2 text-white text-lg">{props.title}</div>
@@ -40,7 +40,7 @@ const Project=(props)=>{
 const ProjectList=()=>{
     return(
         <>
-        <div className="w-full h-max flex flex-col gap-5 md:flex-row md:ml-5 md:gap-12 flex-wrap">
+        <div className="w-full h-max flex flex-col my-2 md:flex-row md:ml-5 md:gap-12 flex-wrap">
             {myProjects.map(item=>(
                 <Project projLink={item.projLink} imageLink={item.imageLink} title={item.title} html={item.html} css={item.css} js={item.js} react={item.reactLogo} tailwind={item.tailwind} />
             ))}
