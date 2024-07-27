@@ -2,6 +2,14 @@
 
 var myProjects=[
     {
+        projLink:"https://webblogwriter.netlify.app",
+        imageLink:"images/BlogWriter.png",
+        title:"Full Stack Blog Website",
+        tailwind:true,
+        nextjs:true,
+       
+    },
+    {
         projLink:"https://yooetube.netlify.app/",
        imageLink:"images/yticon.jpg",
         title:"Youtube Clone",
@@ -77,5 +85,6 @@ var myProjects=[
         js:true,
        
     },
+  
 ];
 export default myProjects;

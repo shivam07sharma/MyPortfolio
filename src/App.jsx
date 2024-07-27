@@ -5,7 +5,7 @@ import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
 import ProjectList from './components/ProjectsPage'
 import Media from './components/mediaLinks'
-import { useEffect,useState } from 'react'
+
 function Homepage(){
     
   return(<>
