@@ -4,14 +4,14 @@ const List = ({ addClass }) => {
     return (
 
         <ul className={`flex ${addClass}  text-white text-sm  md:text-base w-screen md:w-2/4 justify-end mr-4 py-3`}>
-            <NavLink to={"/"}>    <li className="list-none m-auto md:mx-4 rounded-full px-3 py-1 hover:bg-[#0a21c0]">Home</li>
+            <NavLink to={"/"}>    <li className="list-none transition-all m-auto md:mx-4 rounded-full px-3 py-1 hover:bg-[#8989895f]">Home</li>
             </NavLink>
-            <NavLink to={"/About"}>    <li className="list-none m-auto md:mx-4 rounded-full px-3 py-1 hover:bg-[#0a21c0]">About</li>
+            <NavLink to={"/About"}>    <li className="list-none transition-all m-auto md:mx-4 rounded-full px-3 py-1 hover:bg-[#8989895f]">About</li>
             </NavLink>
-            <NavLink to={"/Projects"}>    <li className="list-none m-auto md:mx-4 rounded-full px-3 py-1 hover:bg-[#0a21c0]">Projects</li>
+            <NavLink to={"/Projects"}>    <li className="list-none transition-all m-auto md:mx-4 rounded-full px-3 py-1 hover:bg-[#8989895f]">Projects</li>
 
             </NavLink>
-            <NavLink to={"/ContactMe"}>    <li className="list-none m-auto md:mx-4 rounded-full px-3 py-1 hover:bg-[#0a21c0]">Contact Me</li>
+            <NavLink to={"/ContactMe"}>    <li className="list-none transition-all m-auto md:mx-4 rounded-full px-3 py-1 hover:bg-[#8989895f]">Contact Me</li>
             </NavLink>
         </ul>
     )
